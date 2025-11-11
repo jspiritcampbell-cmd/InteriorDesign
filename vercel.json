@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "app/api/design/route.ts": {
+      "runtime": "edge"
+    }
+  }
+}
