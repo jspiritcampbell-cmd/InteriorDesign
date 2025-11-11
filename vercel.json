@@ -1,3 +1,7 @@
-git add .
-git commit -m "Fix vercel runtime version"
-git push
+{
+  "functions": {
+    "app/api/design/route.ts": {
+      "runtime": "vercel-edge@2.0.0"
+    }
+  }
+}
